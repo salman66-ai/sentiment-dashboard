@@ -1,0 +1,10 @@
+AI Usage Report
+In this project, I used HuggingFace’s pre-trained model distilbert-base-uncased-finetuned-sst-2-english through the transformers pipeline to perform sentiment classification on social media text and reviews.
+
+The model is based on DistilBERT, a lighter and faster version of BERT, and was fine-tuned on the Stanford Sentiment Treebank (SST-2) dataset. It outputs sentiment labels (POSITIVE / NEGATIVE) along with confidence scores.
+
+This AI model replaced traditional lexicon-based methods like TextBlob, providing higher accuracy, especially on contextual, sarcastic, or ambiguous statements.
+
+I integrated the model into a Streamlit dashboard, allowing users to analyze individual texts or bulk data from a CSV file. Visualizations were added using Matplotlib and Seaborn to show sentiment distribution.
+
+AI tools like ChatGPT and HuggingFace’s model documentation helped me speed up development, structure the code, debug efficiently, and deliver a polished app within a short time.
